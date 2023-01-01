@@ -1,0 +1,125 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.neumorphic-convex {
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.neumorphic-concave {
+    border-radius: 30px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 26px 26px 57px #cccccc,
+        -26px -26px 57px #f4f4f4;
+}
+
+.active-neumorphic-convex {
+    border-radius: 30px;
+    background: #a9c5fe;
+    box-shadow: 20px 20px 60px #90a7d8, -20px -20px 60px #c2e3ff;
+}
+
+.active-neumorphic-concave {
+    border-radius: 30px;
+    background: linear-gradient(145deg, #98b1e5, #b5d3ff);
+    box-shadow: 26px 26px 57px #90a7d8,
+        -26px -26px 57px #c2e3ff;
+}
+
+
+
+.baseContainer {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+.base {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading h1 {
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.controller h2 {
+    font-weight: 100;
+}
+
+.instrument {
+    width: 170px;
+    height: 170px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+}
+
+.instrumentIcon {
+    margin-bottom: 5px;
+}
+
+.snareDrum,
+.hiHats,
+.highTom,
+.bassDrum,
+.midTom,
+.cymbal {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.lowTom {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+}
+
+.instrument1 {
+    top: 500px;
+    left: 370px;
+}
+
+.instrument2 {
+    top: 350px;
+    left: 170px;
+}
+
+.instrument3 {
+    top: 270px;
+    left: 420px;
+}
+
+.instrument4 {
+    top: 250px;
+    left: 670px;
+}
+
+.instrument5 {
+    top: 270px;
+    left: 920px;
+}
+
+.instrument6 {
+    top: 350px;
+    left: 1170px;
+}
+
+.instrument7 {
+    top: 500px;
+    left: 970px;
+}
